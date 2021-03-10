@@ -16,4 +16,4 @@ Most of exchanges has internal transactions. When you create withdrawal from one
 
 Let's take in example binance and huboi. We create institutional accounts in both of them. Whenever you want to do withdraw from binance to huobi, you do withdrawal from your binance account to our binance account. We detect this transaction and create withdrawal from our huobi account to your huobi account. As you see both transactions are internal. You don't pay network fees (just throw coin to your witcher) and you almost don't wait, those are nearly instant.
 
-You are probably starting to see that you CAN have a cake and it too. Let's see how to setup this.
+You are probably starting to see that you CAN have a cake and eat it too. Let's see how to setup this.
