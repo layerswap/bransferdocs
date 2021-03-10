@@ -18,4 +18,4 @@ Let's take in example binance and huboi. We create institutional accounts in bot
 
 We ❤️ crypto as much as you do. So don't immediatly start blaming us. We understand that this is not an crypto-way. We understand that we are centralized institutaion which is against decentralizaiton. We are horrible. Ok. But the issue still remains, there are centralized exchanges and we for no necassarity pay a lot of time and money for e2e transactions.
 
-You are probably starting to see that you CAN have a cake and eat it too. Let's see how to setup this.
+You are probably starting to see that you CAN have a cake and eat it too. Let's see how to [setup](./Setup.md) this.
