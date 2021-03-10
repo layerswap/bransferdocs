@@ -1,10 +1,16 @@
 # Bransfer Docs Home
 
-Welcome 👋 to the offical docs for Bransfer, the software that helps you save money and time on exchange to exchange crypto transfers.
+Welcome 👋 to the offical docs for Bransfer, the software that helps you save (money and time) on exchange to exchange crypto transfers.
 
-## How this works?
+## What? How?
+
+You create withdrawal from one exchange. Exchange takes your withdrawal, validates bunch of stuff, uses bunch of cryptography to compose valid blockchain transaction and pushes it to blockchain network. Miners pick up your transaction. Ofcourse, if you are lucky enough and you put enough fees to compete with other users. They start mining and mining, then after they finally find those `00000...`'s in block hash they publish the block with your transaction. But that is not enough yet, you still have to wait for couple of more blocks to get minied, so your transaction can be called confirmed. 
 
 ![Standard withdrawal](/assets/standard_withdrawal.png)
 
+The question we ask is, this is what we really wanted? Ok, this is cool stuff, cryptography, decentrailization and everything. But I am in centralized exchange and I want my crypto to be in another centralized exchange. Why I would go throught all these stuff, pay insanse amount of fees and wait not less insane amount of time?
+
+Most of exchanges has internal transactions. When you create withdrawal from one exchange account to another one in same exchange. This is done almost instantly and with 0 fees. ([example Binance](https://www.binance.com/en/support/articles/360037037312-How-to-Make-Internal-Transfer-within-Binance)). 
 
 ![Bransfer withdrawal](/assets/bransfer_withdrawal.png)
+
