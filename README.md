@@ -4,7 +4,7 @@ Welcome 👋 to the offical docs for Bransfer, the software that helps you save 
 
 ## What? How?
 
-You create withdrawal from one exchange. Exchange takes your withdrawal, validates bunch of stuff, uses bunch of cryptography to compose valid blockchain transaction and pushes it to blockchain network. Miners pick up your transaction. Ofcourse, if you are lucky enough and you put enough fees to compete with other users. They start mining and mining, then after they finally find those `00000...`'s in block hash they publish the block with your transaction. But that is not enough yet, you still have to wait for couple of more blocks to get minied, so your transaction can be called confirmed. 
+You create withdrawal from one exchange. Exchange takes your withdrawal, validates bunch of stuff, uses bunch of cryptography to compose valid blockchain transaction and pushes it to blockchain network. Miners pick up your transaction. Ofcourse, if exchange was wise enough and put enough fees to compete with other users. They start mining and mining, then after they finally find those `00000...`'s in block hash they publish the block with your transaction. But that is not enough yet, you still have to wait for couple of more blocks to get minied, so your transaction can be called confirmed. 
 
 ![Standard withdrawal](/assets/standard_withdrawal.png)
 
@@ -14,3 +14,6 @@ Most of exchanges has internal transactions. When you create withdrawal from one
 
 ![Bransfer withdrawal](/assets/bransfer_withdrawal.png)
 
+Let's take in example binance and huboi. We create institutional accounts in both of them. Whenever you want to do withdraw from binance to huobi, you do withdrawal from your binance account to our binance account. We detect this transaction and create withdrawal from our huobi account to your huobi account. As you see both transactions are internal. You don't pay network fees (just throw a coin to you witcher) and you almost don't wait, those are nearly instant.
+
+You are probably starting to see that you CAN have a cake and it too. Let's see how to setup this.
