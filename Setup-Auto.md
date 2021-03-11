@@ -23,7 +23,7 @@ Login to Your Binance Account > Api Managemtn > Generate API KEYS
 Now we need to activate these both exchanges in bransfer dashboard.
 
 Go to Exchanges section and for each exchange put corresponding API keys.
-![Exchanges](/assets/binance_api_key.png)
+![Exchanges](/assets/bransfer_exchanges.png)
 
 
 Go to Bransfers section.
