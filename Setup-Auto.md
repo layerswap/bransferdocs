@@ -26,7 +26,11 @@ Go to Exchanges section and for each exchange put corresponding API keys.
 ![Exchanges](/assets/bransfer_exchanges.png)
 
 
-Go to Bransfers section.
-Create Bransfer.
+Go to Bransfers section and create new Bransfer.
+![Create Bransfer](/assets/create_bransfer.png)
+Select Source and Destination Exchanges and the asset you want to withdraw.
+
+Then you will be porvided with intermediate wallet address in source exchange which you can use to withdraw.
+![Bransfer list](/assets/bransfers_list.png)
 
 Copy provided address and now whenver you want to do withdrawal from Source exchange(in this example binance) you have to do withdrawal to provided address. After which we will detect this transaction and automatically do withdrawal form our destination exchange(in this example huobi) to your hobi accounts corresponding asset's address, which we will get using your API Keys. Everything Automatically. You can do as many withdrawals as you want. Everything will be done automatically without any user interaction.
