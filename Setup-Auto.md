@@ -12,12 +12,12 @@ ATTENTION! Do not add non-read only API keys. We use API keys only for reading d
 We use Source Exchange API keys to match deposits that came to our address from a certain user who requested withdrawal. And Destination Exchange API keys are used to find the address to which withdrawal has to be done in destination exchange. 
 
 Let’s start with generating API keys in both exchanges. 
-Login to Your Huobi Account > Api Management > Generate API KEYS
-Login to Your Binance Account > Api Management > Generate API KEYS
-Now we need to activate these both exchanges in bransfer dashboard. 
-Go to Exchanges section and for each exchange put corresponding API keys. 
-Go to Bransfers section and create new Bransfer. 
-Select Source and Destination Exchanges and the asset you want to withdraw. 
-Then you will be provided with intermediate wallet address in source exchange which you can use for withdrawals. 
+- Login to Your Huobi Account > Api Management > Generate API KEYS
+- Login to Your Binance Account > Api Management > Generate API KEYS
+- Now we need to activate these both exchanges in bransfer dashboard. 
+- Go to Exchanges section and for each exchange put corresponding API keys. 
+- Go to Bransfers section and create new Bransfer. 
+- Select Source and Destination Exchanges and the asset you want to withdraw. 
+- Then you will be provided with intermediate wallet address in source exchange which you can use for withdrawals. 
 
 Copy provided address and now whenever you want to withdraw from Source Exchange (in this example binance) you have to withdraw to the provided address. After that we will detect this transaction and automatically do withdrawal form our destination exchange (in this example huobi) to your huobi account’s corresponding the address of the asset, which we will get using your API Keys. You can do as many withdrawals as you wish. Everything will be done automatically without any user interaction. 
