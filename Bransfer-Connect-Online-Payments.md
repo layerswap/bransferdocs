@@ -1,6 +1,6 @@
 ---
 title: Bransfer Connect Online Payments
-parent: Bransfer-Connect
+parent: Bransfer Connect
 has_children: true
 ---
 
