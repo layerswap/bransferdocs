@@ -53,14 +53,16 @@ After detecting deposit we will send you this json as POST request to your webho
 
 # Webhook verification
 
-1. Get the signature from the "X-Bransfer-Webhook-Signature" HTTP header.
-2. Get the timestamp from the "X-Bransfer-Webhook-Timestamp" HTTP header.
+1. Get the signature from the `X-Bransfer-Webhook-Signature` HTTP header.
+2. Get the timestamp from the `X-Bransfer-Webhook-Timestamp` HTTP header.
 3. Compose payload
 ```
+// C# example
 var payload = $"{model.ClientId}{model.Amount}{model.Network}{model.Asset}{timestamp}";
 ```
 4. Verify Signature
 ```
+C# example using EllipticCurve
 var decodedSignature = Signature.fromBase64(signature);
 return Ecdsa.verify(payload, decodedSignature, publicKey);
 ```
