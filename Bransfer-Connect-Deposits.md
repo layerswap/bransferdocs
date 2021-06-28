@@ -62,7 +62,7 @@ var payload = $"{model.ClientId}{model.Amount}{model.Network}{model.Asset}{times
 ```
 4. Verify Signature
 ```
-C# example using EllipticCurve
+// C# example using EllipticCurve
 var decodedSignature = Signature.fromBase64(signature);
 return Ecdsa.verify(payload, decodedSignature, publicKey);
 ```
