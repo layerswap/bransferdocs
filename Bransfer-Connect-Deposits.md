@@ -53,8 +53,8 @@ After detecting deposit we will send you this json as POST request to your webho
 
 # Webhook verification
 
-1. Get the signature from the "X-Bransfer-Email-Event-Webhook-Signature" HTTP header.
-2. Get the timestamp from the "X-Bransfer-Email-Event-Webhook-Timestamp" HTTP header.
+1. Get the signature from the "X-Bransfer-Webhook-Signature" HTTP header.
+2. Get the timestamp from the "X-Bransfer-Webhook-Timestamp" HTTP header.
 3. Compose payload
 ```
 var payload = $"{model.ClientId}{model.Amount}{model.Network}{model.Asset}{timestamp}";
