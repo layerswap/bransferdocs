@@ -8,11 +8,11 @@ has_children: true
 
 # Create Account
 
-(Register)[https://connect.bransfer.io/auth/register] your Bransfer Connect account and confirm email.
+[Register](https://connect.bransfer.io/auth/register) your Bransfer Connect account and confirm email.
 
 # Create Application
 
-(Create application)[https://connect.bransfer.io/application/create] which is going to accept Bitcoin deposits.
+[Create application](https://connect.bransfer.io/application/create) which is going to accept Bitcoin deposits.
  
 Provide your application name and what Currency you want to accept.
 
