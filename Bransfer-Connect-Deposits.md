@@ -28,7 +28,7 @@ Click Enable and entery your read-only API kes from that exchange.
 Copy your widget code, from Integration Tab, which should look like this:
 
 ```
-<button type="button" onclick="window.open('https://connect.bransfer.io/Widget/Index/{ORGANIZATIONID}}/CLIENTID/','popUpWindow','height=650,width=400');">Deposit with Bransfer</button>
+<button type="button" onclick="window.open('https://connect.bransfer.io/Widget/Index/{ORGANIZATIONID}/{CLIENTID}/','popUpWindow','height=650,width=400');">Deposit with Bransfer</button>
 ```
 
 * ClientId should be unique id, for example user id in your system
@@ -47,8 +47,8 @@ After detecting deposit we will send you this json as POST request to your webho
   "Amount": "0.002",
   "Network": "BTC",
   "Asset": "BTC",
+  "Exchange" : "Binance"
 }
-
 ```
 
 # Webhook verification
