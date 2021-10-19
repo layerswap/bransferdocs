@@ -13,8 +13,8 @@ Right now we are working on more robust integration with Binance, which will all
 1. Go to Bransfer [payment methods](https://connect.bransfer.io/paymentmethods)
 1. Click Connect next to Coinbase
 1. In Coinbase Authorization screen configure limits and click Authorize
-2. 
-> Note that you have to authorize for amount you are going to swap monthly.
+
+> Note that you have to authorize for the amount you are going to swap.
 
 **Now, you are ready to process your first no-fee and instant crypto transfer with Bransfer!**
 
