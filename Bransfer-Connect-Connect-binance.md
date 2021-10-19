@@ -1,7 +1,7 @@
 ---
 title: Connect Binance Account
 parent: Bransfer Connect
-has_children: true
+has_children: false
 ---
 
 Bransfer is using your crypto exchange accounts as "payment method". As PayPal is using your VISA or MasterCard.
