@@ -8,7 +8,7 @@ has_children: false
 ### In this article you can find detailed steps on how to get your Binance account API keys and add them to Bransfer
 
 #### Watch this quick walktrough or follow the detailed steps below.
-{: .pt-6 }
+{: .pt-2 }
 
 ![Quick overview](/assets/how-to/binance/binanceHowTo.gif)
 {: .pr-5 }
