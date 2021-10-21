@@ -13,26 +13,31 @@ has_children: false
 {: .pr-5 .pt-2 }
 
 Login to your Binance account and click **API Management**
+{: .pt-4 }
 
 ![](/assets/how-to/binance/1.png)
 {: .pr-5 .pt-2  }
 
 Enter a label and press **Create API**
+{: .pt-4 }
 
 ![](/assets/how-to/binance/2.png)
 {: .pr-5 .pt-2  }
 
 Verify the action with your 2FA methods.
+{: .pt-4 }
 
 ![](/assets/how-to/binance/3.png)
 {: .pr-5 .pt-2  }
 
 It will show your Api Key and Api Secret. **Please note that Secret will be hidden after you close this window.**
+{: .pt-4 }
 
 ![](/assets/how-to/binance/4.png)
 {: .pr-5 .pt-2  }
 
 Now go back to Bransfer and paste your **API Key** and **API Secret**.
+{: .pt-4 }
 
 ![](/assets/how-to/binance/5.png)
 {: .pr-5 .pt-2  }
