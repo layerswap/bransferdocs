@@ -3,23 +3,37 @@ title: Connect Binance Account
 parent: Bransfer Connect
 has_children: false
 ---
+# How to connect your Binance acount to Bransfer
 
-Bransfer is using your crypto exchange accounts as "payment method". As PayPal is using your VISA or MasterCard.
-Different crypto exchanges provide different ways of integration. For Example with Coinbase it's simple as clicking Authorize button.
-But for example with Binance you have to put your API Keys. And for this reason we ask only for Read-only API keys.
-You will initate withdrawal manually and we will use read-only api keys to verify your withdrawal information and match with our records.
-Right now we are working on more robust integration with Binance, which will allow to pay directly from Binance Pay App.
 
-1. Go to Binance and [create read-only API keys](https://www.binance.com/en/support/faq/360002502072)
-1. Copy API and Secret Key
-1. Go to Bransfer [payment methods](https://connect.bransfer.io/paymentmethods)
-1. Click Connect next to Binance
-1. Paste newly copied keys and click Connect.
+### In this article you can find detailed steps on how to get your Binance account API keys and add them to Bransfer
 
-> Note that it's Read-Only API Keys. Bransfer WONT and CANT initate any trade or withdrawal on your behalf.
+Watch this quick walktrough or follow the detailed steps below.
 
-Login to your Binance account and click **API Management**
+![Quick overview](/assets/how-to/binance/binanceHowTo.gif)
+
+1. Login to your Binance account and click **API Management**
+
 ![](/assets/how-to/binance/1.png)
+
+2. Enter a label and press **Create API**
+
+![](/assets/how-to/binance/2.png)
+
+3. Verify the action with your 2FA methods.
+
+![](/assets/how-to/binance/3.png)
+
+4. It will show your Api Key and Api Secret. **Please note that Secret will be hidden after you close this window.**
+
+![](/assets/how-to/binance/4.png)
+
+5. Now go back to Bransfer and paste your **API Key** and **API Secret**.
+
+![](/assets/how-to/binance/5.png)
+
+> Note that these are Read-Only API Keys. **Bransfer CAN'T initate any trade or withdrawal on your behalf.**
+
 
 **Now, you are ready to process your first no-fee and instant crypto transfer with Bransfer!**
 
