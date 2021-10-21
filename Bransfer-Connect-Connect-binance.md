@@ -18,5 +18,8 @@ Right now we are working on more robust integration with Binance, which will all
 
 > Note that it's Read-Only API Keys. Bransfer WONT and CANT initate any trade or withdrawal on your behalf.
 
+Login to your Binance account and click **API Management**
+![]("/assets/how-to/binance/1.png")
+
 **Now, you are ready to process your first no-fee and instant crypto transfer with Bransfer!**
 
